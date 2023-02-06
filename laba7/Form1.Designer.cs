@@ -32,6 +32,7 @@
             this.Replace = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+
             this.SuspendLayout();
             // 
             // Removee
@@ -78,6 +79,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -86,6 +88,7 @@
         private System.Windows.Forms.Button Removee;
         private System.Windows.Forms.Button Replace;
         private System.Windows.Forms.DataGridView dataGridView1;
+
     }
 }
 
