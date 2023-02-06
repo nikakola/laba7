@@ -73,7 +73,7 @@ namespace laba7
                 XmlElement newCompany = xmlDoc.CreateElement("company");
                 newCompany.InnerText = company.Text.ToString();
                 newNode.AppendChild(newCompany);
-                textBox1.Text = newCompany.InnerText.ToString();
+                
 
                 XmlElement newAge = xmlDoc.CreateElement("age");
                 newAge.InnerText = age.Text.ToString();
